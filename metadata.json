@@ -1,0 +1,6 @@
+{
+  "name": "Bank Statement OCR",
+  "description": "An automated tools that extracts transaction tables from PDF/image bank statements using Gemini 3.5 Flash, categorizing transactions and outputting clean CSV ready for copy-pasting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
