@@ -285,10 +285,12 @@ export default function App() {
   // Drag and drop events
   const handleDragOver = (e: React.DragEvent) => {
     e.preventDefault();
+    e.stopPropagation();
   };
 
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     const files = e.dataTransfer.files;
     if (files && files.length > 0) {
       processMultipleFiles(files);
